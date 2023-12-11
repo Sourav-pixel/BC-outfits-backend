@@ -45,9 +45,6 @@
         "images"
       ]
     },
-    "original": {
-      "type": "decimal"
-    },
     "slug": {
       "type": "uid",
       "targetField": "name"
@@ -57,6 +54,9 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "products"
+    },
+    "original": {
+      "type": "decimal"
     }
   }
 }
